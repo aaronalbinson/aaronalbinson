@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Heritage Engineering North West LTD."
+    title: "Aaron Albinson | Front End Developer"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -39,7 +39,7 @@ module.exports = {
         logo: "./src/img/favicon.png",
 
         // WebApp Manifest Configuration
-        appName: "Heritage Engineering North West LTD.", // Inferred with your package.json
+        appName: "Aaron Albinson", // Inferred with your package.json
         appDescription: null,
         developerName: null,
         developerURL: null,
