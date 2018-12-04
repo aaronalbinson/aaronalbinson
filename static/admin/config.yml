@@ -66,6 +66,10 @@ collections:
             widget: "list"
             fields:
               - {label: Custom HTML, name: customhtml, widget: "string"}
+          - label: "About Block" 
+            name: "aboutBlock"
+            widget: "boolean"
+            default: false
 
   - name: "menu"
     label: "Menu"
