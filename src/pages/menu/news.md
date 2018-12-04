@@ -1,6 +1,6 @@
 ---
 templateKey: menu
-title: News
+title: Blog
 menupath: /news
 ---
 
