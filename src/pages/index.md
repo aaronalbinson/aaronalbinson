@@ -3,16 +3,14 @@ templateKey: basic-page
 title: Aaron Albinson
 elements:
   - hero:
-      - herodescription: >-
-          Heritage Engineering North West Ltd is an engineering company that
-          specialises in the manufacture of machined components.
-        heroimage: /img/machine.jpg
+      - herodescription: Front End Web Developer in Manchester
+        heroimage: ''
         herolink: /about
-        herotitle: Heritage Engineering
+        herotitle: Aaron Albinson
   - hero:
-      - herodescription: Find out what we've been up to
-        heroimage: /img/roler cam lifting assembly.jpg
+      - herodescription: Find out what I've been up to
+        heroimage: ''
         herolink: /news
-        herotitle: Latest News
+        herotitle: Blog
 ---
 
