@@ -4,7 +4,7 @@ title: Aaron Albinson
 elements:
   - hero:
       - herodescription: Front End Web Developer in Manchester
-        heroimage: ''
+        heroimage: /img/dwo6mzdxcaey3v3.jpg
         herolink: /about
         herotitle: Aaron Albinson
   - hero:
