@@ -1,7 +1,32 @@
+@import '../../styles/_variables';
+
 .about {
     display:flex;
 }
 
-.aboutItem {
-    
+.aboutItem{
+    color: #FFFFFF;
+}
+
+.aboutItem p {
+    margin-bottom: 15px;
+}
+
+.aboutItem .aboutItemTitle{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.aboutItem.knowledge {
+    background-color: $primary-color-light;
+}
+
+.aboutItem.work{
+    background-color: $green;
+}
+
+.aboutItem.inspire{
+    background-color: $secondary-color;
 }

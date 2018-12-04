@@ -8,6 +8,7 @@ import AaGallery from "../components/AaGallery/AaGallery";
 import AaTextElement from "../components/AaTextElement/AaTextElement";
 import Content, { HTMLContent } from "../components/Content";
 import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
+import About from "../components/About/About";
 
 export const BasicPageTemplate = ({
   content,
@@ -56,7 +57,8 @@ export const BasicPageTemplate = ({
                           author={quote.quoteauthor}
                         />
                       </div>
-                    )))}
+                    ))) ||
+                  (element.aboutBlock && <About />)}
               </div>
             ))
           : ""}
@@ -128,6 +130,7 @@ export const pageQuery = graphql`
             quotetitle
             quoteauthor
           }
+          aboutBlock
         }
       }
     }
