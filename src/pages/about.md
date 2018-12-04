@@ -65,10 +65,12 @@ elements:
           I'm a strong believer that the internet can be used to make our lives
           better. With great designs, awesome communication and a good robust
           build the internet can be a beautiful place.
-  - quote:
-      - quotetitle: >-
-          "We pride ourselves on building strong enduring relationships with
-          quality companies by providing consistently high quality and service
-          levels."
+  - hero:
+      - herodescription: >-
+          Have a read of some of the things that interest me and excite me about
+          Web Development
+        heroimage: /img/group-1-.jpg
+        herolink: /news
+        herotitle: Read my blog
 ---
 
