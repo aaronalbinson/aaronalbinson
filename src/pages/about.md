@@ -1,40 +1,70 @@
 ---
 templateKey: basic-page
-title: About
+title: About Aaron
 elements:
   - hero:
-      - herodescription: >-
-          Heritage Engineering North West Limited was established in 2010 with
-          the word Heritage in mind.  We will endeavour to manufacture and
-          produce any part that is difficult to find anywhere else.
+      - herodescription: ''
         heroimage: /img/2016-08-18-13-46-50.jpg
-        herotitle: About
+        herotitle: About Aaron
   - text:
       - paragraph: >-
-          We are a family run company who specialise in the manufacture of
-          machined components for numerous  modern industries including
-          packaging, lifting and printing, producing anything from bespoke
-          one-off items and after market parts for often obsolete machinery to
-          emergency repair work/reverse engineering.  We are capable of
-          machining your standard  materials ie. steel, stainless steel and
-          non-ferrous metals and also we have vast experience in most modern
-          composites and plastics used widely in todays industries.
+          I currently work in the centre of Manchester but I believe the
+          internet is time zone free so my network reaches worldwide.
 
 
-          We are the company to come to if you want our experience and expertise
-          combined, this ensures you we offer the very best and most experienced
-          service every time. Our customers range from large brands to smaller
-          operations and we are happy to hear from you wherever you are.
+          [Let's connect](https://twitter.com/aaronalbinson)
 
 
-          Whatever your requirements we will do our best to help, as a
-          professional company we are all highly trained in all engineering
-          aspects. We love working on all kinds of projects from the very simple
-          and straightforward to the very complicated.
+          ## Skills
 
 
-          If you have a project and you are not sure where to start [contact
-          us](/contact).
+          I'm an advocate of open source projects. I think that an open web
+          creates a much happier and successful community online. I build
+          bespoke websites in both Wordpress and Drupal and many other
+          platforms.
+
+
+          As well as building websites I'm also skilled in building for all
+          devices. Whether that's responsive websites, progressive web apps or
+          native Android and iOS apps.
+
+
+          ## Projects
+
+
+          I work on my own projects in my spare time, my more recent project is
+          Meanwhile in Manchester, a website and app for events in and around
+          Manchester.
+
+
+          Find out more
+
+
+          ## Inspire
+
+
+          I'm always finding ways to improve my own skills but also encourage
+          others to take on new challenges.
+
+
+          I regularly attend universities and colleges to inspire younger
+          generations into the world of digital.
+
+
+          Giving back to the community is very important to me, that's why I've
+          recently started a local Code Club for 9-13 year olds.
+
+
+          \-
+
+
+          My life isn't all about digital, most of my principles in work come
+          from my life and ideas that inspire me.
+
+
+          I'm a strong believer that the internet can be used to make our lives
+          better. With great designs, awesome communication and a good robust
+          build the internet can be a beautiful place.
   - quote:
       - quotetitle: >-
           "We pride ourselves on building strong enduring relationships with
