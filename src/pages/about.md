@@ -72,5 +72,6 @@ elements:
         heroimage: /img/group-1-.jpg
         herolink: /news
         herotitle: Read my blog
+  - aboutBlock: true
 ---
 
