@@ -1,15 +1,17 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import "../styles/_variables.scss"
 
 // Config vars
 
 $primary: #0d333c;
 $primary-invert: #fdcd3a;
-$secondary: #24aab0;
-$gray: #fafafa;
+$secondary: #a27a2e;
+$gray: #2d3337;
 
 .top
   padding: 20px
-  border-bottom: 5px solid #fdcd3a
+  border-bottom: 5px solid $secondary-color
+  background-color: $primary-color-light
 
 .content .taglist
   list-style: none

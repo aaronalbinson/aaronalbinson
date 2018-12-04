@@ -2,13 +2,15 @@
 
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
-  right: 36px;
-  top: 36px;
+  width: 46px;
+  height: 40px;
+  right: 20px;
+  top: 24px;
+  background-color: $secondary-color-light;;
+  border: solid 7px $secondary-color-light;;
 }
 .bm-burger-bars {
-  background: $primary-color;
+  background: #FFFFFF;
 }
 .bm-cross-button {
   height: 24px;

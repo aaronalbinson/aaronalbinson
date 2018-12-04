@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import logo from "../img/logo.png";
+import logo from "../img/logo.svg";
 import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
 import AaFooter from "./AaFooter/AaFooter";
@@ -46,18 +46,11 @@ const TemplateWrapper = ({ children }) => (
                     className="logo"
                     src={logo}
                     alt="Aaron Albinson"
-                    style={{ width: "300px" }}
+                    style={{ width: "100px" }}
                   />
                 </Link>
               </div>
-              <div className="hidden-xs">
-                <Services />
-              </div>
-
               {children}
-              <div className="visible-xs">
-                <Services />
-              </div>
             </div>
 
             <AaFooter
