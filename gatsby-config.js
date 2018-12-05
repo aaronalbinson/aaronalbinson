@@ -38,7 +38,7 @@ module.exports = {
       options: {
         fonts: [
           `muli`,
-          `eb garamond\:300,400,400i,700` // you can also specify font weights and styles
+          `eb garamond` // you can also specify font weights and styles
         ]
       }
     },
