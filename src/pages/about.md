@@ -4,7 +4,7 @@ title: About Aaron
 elements:
   - hero:
       - herodescription: ''
-        heroimage: /img/2016-08-18-13-46-50.jpg
+        heroimage: /img/abstract-background-blur-949587.jpg
         herotitle: About Aaron
   - aboutBlock: true
   - aboutBlock: false
