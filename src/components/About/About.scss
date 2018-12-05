@@ -7,16 +7,20 @@
 .aboutItem{
     color: #FFFFFF;
     padding: 30px;
+    margin-bottom: 40px;
+    margin: 40px;
 }
 
 .aboutItem p {
     margin-bottom: 15px;
+    font-size: 26px;
+    font-family: "EB Garamond";
 }
 
 .aboutItem .aboutItemTitle{
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 25px;
 }
 
@@ -29,5 +33,5 @@
 }
 
 .aboutItem.inspire{
-    background-color: $secondary-color;
+    background-color: $brown;
 }
