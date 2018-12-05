@@ -16,7 +16,7 @@ class AaNewsItem extends React.Component {
     return (
       <div className="container">
         <div className="about columns">
-          <div className="aboutItem column knowledge is-5">
+          <div className="aboutItem column knowledge is-6">
             <h2 className="aboutItemTitle">Knowledge</h2>
             <p>
               I'm an advocate of open source projects. I think that an open web
@@ -35,7 +35,7 @@ class AaNewsItem extends React.Component {
           </div>
         </div>
         <div class="about columns">
-          <div className="aboutItem column work is-5 is-offset-7">
+          <div className="aboutItem column work is-6 is-offset-6">
             <h2 className="aboutItemTitle">Work</h2>
             <p>
               I currently work for a design agency in the centre of Manchester
@@ -53,7 +53,7 @@ class AaNewsItem extends React.Component {
           </div>
         </div>
         <div class="about columns">
-          <div className="aboutItem column is-5 inspire">
+          <div className="aboutItem column is-6 inspire">
             <h2 className="aboutItemTitle">Inspire</h2>
             <p>
               I'm always finding ways to improve my own skills but also
