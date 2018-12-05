@@ -8,11 +8,25 @@
   display: inline;
   color: #ffffff;
   font-family: Muli;
+
+  @media only screen and (max-width: 600px) {
+    display:block;
+  }
 }
 
 .AaNewsItemHeader {
   display: flex;
   align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    display:block;
+  }
+}
+
+.bull {
+  @media only screen and (max-width: 600px) {
+    display:none;
+  }
 }
 
 .AaNewsItemHeader span {
@@ -21,6 +35,7 @@
 
 .AaNewsItemHeader small {
   font-family: Muli;
+  color: $bage;
 }
 
 .AaNewsItem .content {

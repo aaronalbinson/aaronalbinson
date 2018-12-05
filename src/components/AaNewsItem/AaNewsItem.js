@@ -20,7 +20,7 @@ class AaNewsItem extends React.Component {
             <Link className="has-text-primary" to={this.props.slug}>
               <h3>{this.props.title}</h3>
             </Link>
-            <span> &bull; </span>
+            <span className="bull"> &bull; </span>
             <small>{this.props.date}</small>
           </p>
           <p>
