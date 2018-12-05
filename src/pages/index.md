@@ -9,7 +9,7 @@ elements:
         herotitle: Aaron Albinson
   - hero:
       - herodescription: Find out what I've been up to
-        heroimage: ''
+        heroimage: /img/group-1-.jpg
         herolink: /news
         herotitle: Blog
 ---
