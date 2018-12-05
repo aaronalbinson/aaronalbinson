@@ -37,8 +37,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `muli`,
-          `eb garamond` // you can also specify font weights and styles
+          `eb garamond`,
+          `muli`
         ]
       }
     },
