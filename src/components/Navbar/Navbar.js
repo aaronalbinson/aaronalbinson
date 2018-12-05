@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
 
-import { elastic as Menu } from "react-burger-menu";
+import { slide as Menu } from "react-burger-menu";
 
 require("./Navbar.scss");
 
