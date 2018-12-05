@@ -35,3 +35,18 @@
 .aboutItem.inspire{
     background-color: $brown;
 }
+
+.aboutItem .btn {
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 15px;
+    background-color: $primary-color-light;
+    background-image: none;
+    border-width:0;
+    &:hover {
+        background-color: $primary-color-light;
+        background-image: none;
+    }
+}

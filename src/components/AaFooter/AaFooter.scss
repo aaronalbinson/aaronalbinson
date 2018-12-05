@@ -1,13 +1,15 @@
-@import "../all.sass";
+@import '../../styles/_variables';
 
-footer.footer {
+.aafooter {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex-basis: 50%;
   justify-content: space-between;
-  border-top: 8px solid $primary-invert;
+  border-top: 8px solid $secondary-color;
   padding: 20px;
+  background-color: $primary-color-light;
+  color: #FFFFFF;
 }
 
 .footerAddress {
@@ -24,9 +26,9 @@ footer.footer {
     li {
       margin-left: 20px;
       a {
-        color: $primary-invert;
+        color: $secondary-color;
         &:hover {
-          color: $primary;
+          color: $secondary-color;
         }
       }
     }

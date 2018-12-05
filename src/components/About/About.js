@@ -29,7 +29,9 @@ class AaNewsItem extends React.Component {
               devices. Whether that's responsive websites, progressive web apps
               or native Android and iOS apps.
             </p>
-            <Button bsStyle="primary">Keep Reading →</Button>
+            <Button className="btn" bsStyle="primary">
+              Keep Reading →
+            </Button>
           </div>
         </div>
         <div class="about columns">
@@ -45,7 +47,9 @@ class AaNewsItem extends React.Component {
               is Meanwhile in Manchester, a website and app for events in and
               around Manchester.
             </p>
-            <Button bsStyle="primary">Keep Reading →</Button>
+            <Button className="btn" bsStyle="primary">
+              Keep Reading →
+            </Button>
           </div>
         </div>
         <div class="about columns">
@@ -63,7 +67,9 @@ class AaNewsItem extends React.Component {
               Giving back to the community is very important to me, that's why
               I've recently started a local Code Club for 9-13 year olds.
             </p>
-            <Button bsStyle="primary">Keep Reading →</Button>
+            <Button className="btn" bsStyle="primary">
+              Keep Reading →
+            </Button>
           </div>
         </div>
       </div>

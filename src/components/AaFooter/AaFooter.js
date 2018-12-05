@@ -20,7 +20,7 @@ class AaFooter extends React.Component {
     var markdown = require("markdown").markdown;
     const newAddressHTML = markdown.toHTML(this.props.address);
     return (
-      <footer className="footer">
+      <footer className="aafooter">
         <div className="footerAddress">{ReactHtmlParser(newAddressHTML)}</div>
         <div className="footerSocial">
           <ul>
