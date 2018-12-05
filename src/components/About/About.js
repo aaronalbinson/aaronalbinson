@@ -29,27 +29,29 @@ class AaNewsItem extends React.Component {
               devices. Whether that's responsive websites, progressive web apps
               or native Android and iOS apps.
             </p>
-            <Button className="btn" bsStyle="primary">
-              Keep Reading →
-            </Button>
+            <a href="/news">
+              <Button className="btn" bsStyle="primary">
+                Read my blog →
+              </Button>
+            </a>
           </div>
         </div>
         <div class="about columns">
           <div className="aboutItem column work is-6 is-offset-6">
             <h2 className="aboutItemTitle">Work</h2>
             <p>
-              I currently work for a design agency in the centre of Manchester
-              but I believe the internet is time zone free so my network reaches
-              worldwide.
+              I currently work for a technology company in the centre of
+              Manchester but I believe the internet is time zone free so my
+              network reaches worldwide.
             </p>
             <p>
               I work on my own projects in my spare time, my more recent project
               is Meanwhile in Manchester, a website and app for events in and
               around Manchester.
             </p>
-            <Button className="btn" bsStyle="primary">
+            {/* <Button className="btn" bsStyle="primary">
               Keep Reading →
-            </Button>
+            </Button> */}
           </div>
         </div>
         <div class="about columns">
@@ -67,9 +69,11 @@ class AaNewsItem extends React.Component {
               Giving back to the community is very important to me, that's why
               I've recently started a local Code Club for 9-13 year olds.
             </p>
-            <Button className="btn" bsStyle="primary">
-              Keep Reading →
-            </Button>
+            <a href="https://twitter.com/aaronalbinson">
+              <Button className="btn" bsStyle="primary">
+                Message me on twitter →
+              </Button>
+            </a>
           </div>
         </div>
       </div>
