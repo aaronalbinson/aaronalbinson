@@ -16,7 +16,7 @@ class AaNewsItem extends React.Component {
     return (
       <div className="AaNewsItem">
         <div className="content" key={this.props.id}>
-          <p>
+          <p className="AaNewsItemHeader">
             <Link className="has-text-primary" to={this.props.slug}>
               <h3>{this.props.title}</h3>
             </Link>
