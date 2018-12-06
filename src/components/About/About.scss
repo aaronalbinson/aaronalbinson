@@ -29,7 +29,7 @@
 }
 
 .aboutItem.knowledge {
-    background-color: $primary-color-light;
+    background-color: $gray;
     padding: 30px;
 }
 
@@ -57,6 +57,7 @@
         background-color: $primary-color-light;
         background-image: none;
         color: #FFFFFF;
+        cursor: pointer;
     }
 }
 

@@ -13,6 +13,10 @@
     display:flex;
 }
 
+.aaJumbotron .container{
+    width:80vw;
+}
+
 .aaJumbotron h1 {
     font-weight: bold;
     font-size: 50px;
@@ -22,6 +26,7 @@
     font-family: 'EB Garamond', serif;
     max-width: 400px;
     margin-top: 30px;
+    font-size:24px;
 }
 
 .aaJumbotron .btn {
@@ -38,5 +43,6 @@
         color: #FFFFFF;
         background-color: $primary;
         background-image: none;
+        cursor: pointer;
     }
 }
