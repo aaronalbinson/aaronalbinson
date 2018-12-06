@@ -69,10 +69,8 @@ class AaNewsItem extends React.Component {
               Giving back to the community is very important to me, that's why
               I've recently started a local Code Club for 9-13 year olds.
             </p>
-            <a href="https://twitter.com/aaronalbinson">
-              <Button className="btn" bsStyle="primary">
-                Message me on twitter →
-              </Button>
+            <a className="btn" href="https://twitter.com/aaronalbinson">
+              Message me on twitter →
             </a>
           </div>
         </div>
