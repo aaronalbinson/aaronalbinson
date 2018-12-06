@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Aaron Albinson | Front End Developer"
+    title: "Aaron Albinson | Front End Developer",
+    description: "Front End Web Developer from Manchester"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -36,10 +37,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `eb garamond`,
-          `muli`
-        ]
+        fonts: [`eb garamond`, `muli`]
       }
     },
     {
