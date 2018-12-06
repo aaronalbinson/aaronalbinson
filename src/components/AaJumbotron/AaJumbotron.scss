@@ -25,6 +25,7 @@
 }
 
 .aaJumbotron .btn {
+    color: #FFFFFF;
     border-radius: 30px;
     font-size: 20px;
     text-transform: uppercase;
@@ -34,6 +35,7 @@
     background-image: none;
     border-width:0;
     &:hover {
+        color: #FFFFFF;
         background-color: $primary;
         background-image: none;
     }
