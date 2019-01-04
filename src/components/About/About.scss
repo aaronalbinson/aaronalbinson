@@ -1,70 +1,70 @@
-@import '../../styles/_variables';
+@import "../../styles/_variables";
 
 .about {
-    display:flex;
+  display: flex;
 }
 
-.aboutItem{
-    color: #FFFFFF;
-    padding: 30px;
-    margin-bottom: 40px;
-    margin: 40px;
+.aboutItem {
+  color: #ffffff;
+  padding: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
-    @media only screen and (max-width: 600px) {
-        margin: 10px;
-    }
+  @media only screen and (max-width: 600px) {
+    margin: 10px;
+  }
 }
 
 .aboutItem p {
-    margin-bottom: 15px;
-    font-size: 26px;
-    font-family: 'EB Garamond', serif;
+  margin-bottom: 15px;
+  font-size: 26px;
+  font-family: "EB Garamond", serif;
 }
 
-.aboutItem .aboutItemTitle{
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 30px;
-    margin-bottom: 25px;
+.aboutItem .aboutItemTitle {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 
 .aboutItem.knowledge {
-    background-color: $gray;
-    padding: 30px;
+  background-color: $gray;
+  padding: 30px;
 }
 
-.aboutItem.work{
-    background-color: $green;
-    padding: 30px;
+.aboutItem.work {
+  background-color: $green;
+  padding: 30px;
 }
 
-.aboutItem.inspire{
-    background-color: $brown;
-    padding: 30px;
+.aboutItem.inspire {
+  background-color: $brown;
+  padding: 30px;
 }
 
 .aboutItem .btn {
-    color: #FFFFFF;
-    border-radius: 30px;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 5px 15px;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 15px;
+  background-color: $primary-color-light;
+  background-image: none;
+  border-width: 0;
+  &:hover {
     background-color: $primary-color-light;
     background-image: none;
-    border-width:0;
-    &:hover {
-        background-color: $primary-color-light;
-        background-image: none;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
+    color: #ffffff;
+    cursor: pointer;
+  }
 }
 
-.container{
+.container {
   @media only screen and (max-width: 600px) {
     margin-left: 0;
     margin-right: 0;
   }
 }
-  
