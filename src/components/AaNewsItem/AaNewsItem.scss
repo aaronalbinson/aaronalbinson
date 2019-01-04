@@ -68,14 +68,6 @@
   }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400, 500, 700);
-@import url(
-  https://fonts.googleapis.com/css?family=Droid+Serif:400,
-  700,
-  400italic,
-  700italic
-);
-
 // variables
 $card-width: 350px;
 $card-height: 500px;
@@ -172,7 +164,6 @@ h3 {
   font-weight: 500;
   letter-spacing: 2px;
   color: $h-color;
-  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 hr {
@@ -224,7 +215,6 @@ hr {
     padding: 0 0 0 22px;
     display: inline-block;
     color: $txt-color;
-    font-family: "Roboto", sans-serif;
 
     &.comments {
       background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg)
@@ -239,14 +229,6 @@ hr {
 
 /* Card */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400, 500, 700);
-@import url(
-  https://fonts.googleapis.com/css?family=Droid+Serif:400,
-  700,
-  400italic,
-  700italic
-);
-
 // variables
 $card-width: 350px;
 $card-height: 500px;
@@ -357,7 +339,6 @@ hr {
   width: 170px;
   margin: 0 auto;
   color: $txt-color;
-  font-family: "Droid Serif", serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
@@ -370,7 +351,6 @@ hr {
   margin: 0 auto;
   padding: 0 50px;
   color: $txt-color;
-  font-family: "Droid Serif", serif;
   font-style: 16px;
   line-height: 24px;
   z-index: 20;
@@ -395,7 +375,6 @@ hr {
     padding: 0 0 0 22px;
     display: inline-block;
     color: $txt-color;
-    font-family: "Roboto", sans-serif;
 
     &.comments {
       background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg)
