@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Keeping up with the tech industry
+blogImage: /img/pexels-photo-394377.jpeg
 date: 2017-01-31T01:17:04.934Z
 description: >-
   When you're studying at university you are probably being taught in the latest
