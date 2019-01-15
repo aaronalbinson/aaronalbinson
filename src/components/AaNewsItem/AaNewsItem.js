@@ -37,26 +37,26 @@ class AaNewsItem extends React.Component {
           </p>
         </div> */}
         <div class="blog-card spring-fever" style={blogStyles}>
-          <div class="title-content">
-            <h3>{this.props.title}</h3>
-            <hr />
-            <div class="intro">...</div>
-          </div>
-          <div class="card-info">
-            <div>{this.props.excerpt}</div>
-          </div>
-          <div class="utility-info">
-            <ul class="utility-list">
-              {/* <li class="comments">12</li> */}
-              <li class="date">{this.props.date}</li>
-              <li className="permalink">
-                <a href={this.props.slug}>Read</a>
-              </li>
-            </ul>
-          </div>
+          <a href={this.props.slug}>
+            <div class="title-content">
+              <h3>{this.props.title}</h3>
+              <hr />
+              <div class="intro">...</div>
+            </div>
+            <div class="card-info">
+              <div>{this.props.excerpt}</div>
+            </div>
+            <div class="utility-info">
+              <ul class="utility-list">
+                {/* <li class="comments">12</li> */}
+                <li class="date">{this.props.date}</li>
+                <li className="permalink">Read</li>
+              </ul>
+            </div>
 
-          <div class="gradient-overlay" />
-          <div class="color-overlay" />
+            <div class="gradient-overlay" />
+            <div class="color-overlay" />
+          </a>
         </div>
       </div>
     );
