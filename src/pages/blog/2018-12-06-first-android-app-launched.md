@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: First Android App Launched
+blogImage: /img/phone.png
 date: 2016-12-19T20:18:00.000Z
 description: >-
   Over the last year I've been working on my Meanwhile in Manchester events
