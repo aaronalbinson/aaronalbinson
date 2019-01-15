@@ -1,10 +1,11 @@
 @import "../all.sass";
 
 .AaNewsItem {
-  flex: 0 1 33%;
+  flex: 1 1 43%;
   margin: 30px;
   @media only screen and (max-width: 600px) {
     margin: 30px 0;
+    flex: 1 1 100%;
   }
 }
 
