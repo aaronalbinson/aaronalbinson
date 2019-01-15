@@ -5,6 +5,8 @@ import Layout from "../components/Layout";
 import Button from "react-bootstrap/lib/Button";
 import AaNewsItem from "../components/AaNewsItem/AaNewsItem";
 
+require("../styles/main.scss");
+
 export default class Infos extends React.Component {
   render() {
     const { data } = this.props;
@@ -20,15 +22,17 @@ export default class Infos extends React.Component {
                   Latest Stories
                 </h1>
               </div>
-              {posts.map(({ node: post }) => (
-                <AaNewsItem
-                  id={post.id}
-                  slug={post.fields.slug}
-                  title={post.frontmatter.title}
-                  date={post.frontmatter.date}
-                  excerpt={post.excerpt}
-                />
-              ))}
+              <div className="NewsItems">
+                {posts.map(({ node: post }) => (
+                  <AaNewsItem
+                    id={post.id}
+                    slug={post.fields.slug}
+                    title={post.frontmatter.title}
+                    date={post.frontmatter.date}
+                    excerpt={post.excerpt}
+                  />
+                ))}
+              </div>
             </div>
           </section>
         </div>

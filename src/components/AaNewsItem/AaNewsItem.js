@@ -15,7 +15,7 @@ class AaNewsItem extends React.Component {
   render() {
     return (
       <div className="AaNewsItem">
-        <div className="content" key={this.props.id}>
+        {/* <div className="content" key={this.props.id}>
           <p className="AaNewsItemHeader">
             <Link className="has-text-primary" to={this.props.slug}>
               <h3>{this.props.title}</h3>
@@ -32,24 +32,20 @@ class AaNewsItem extends React.Component {
               <Button bsStyle="primary">Keep Reading →</Button>
             </a>
           </p>
-        </div>
+        </div> */}
         <div class="blog-card spring-fever">
           <div class="title-content">
-            <h3>SPRING FEVER</h3>
+            <h3>{this.props.title}</h3>
             <hr />
             <div class="intro">
               Yllamco laboris nisi ut aliquip ex ea commodo.
             </div>
           </div>
-          <div class="card-info">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim.
-          </div>
+          <div class="card-info">{this.props.excerpt}</div>
           <div class="utility-info">
             <ul class="utility-list">
               <li class="comments">12</li>
-              <li class="date">03.12.2015</li>
+              <li class="date">{this.props.date}</li>
             </ul>
           </div>
 

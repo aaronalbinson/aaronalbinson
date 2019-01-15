@@ -1,5 +1,6 @@
-@import '_variables';
+@import "_variables";
 
-.news {
-
+.NewsItems {
+  display: flex;
+  flex-wrap: wrap;
 }
