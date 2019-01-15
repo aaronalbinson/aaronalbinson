@@ -28,6 +28,7 @@ export default class Infos extends React.Component {
                     id={post.id}
                     slug={post.fields.slug}
                     title={post.frontmatter.title}
+                    image={post.frontmatter.blogImage}
                     date={post.frontmatter.date}
                     excerpt={post.excerpt}
                   />
@@ -64,6 +65,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            blogImage
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }

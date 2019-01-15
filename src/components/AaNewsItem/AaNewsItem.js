@@ -13,6 +13,9 @@ class AaNewsItem extends React.Component {
   }
 
   render() {
+    var blogStyles = {
+      backgroundImage: `url(${blogImage})`
+    };
     return (
       <div className="AaNewsItem">
         {/* <div className="content" key={this.props.id}>
@@ -33,7 +36,7 @@ class AaNewsItem extends React.Component {
             </a>
           </p>
         </div> */}
-        <div class="blog-card spring-fever">
+        <div class="blog-card spring-fever" style={blogStyles}>
           <div class="title-content">
             <h3>{this.props.title}</h3>
             <hr />
