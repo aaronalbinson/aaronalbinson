@@ -1,7 +1,7 @@
 @import "../all.sass";
 
 .AaNewsItem {
-  flex: 1 0 33%;
+  flex: 0 1 33%;
   margin: 30px;
   @media only screen and (max-width: 600px) {
     margin: 30px 0;
@@ -178,6 +178,9 @@ hr {
   z-index: 20;
   opacity: 0;
   transition: opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .utility-info {
