@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Starting my own Code Club
+blogImage: /img/screenshot-2019-01-15-at-16.57.05.png
 date: 2017-09-27T00:14:45.676Z
 description: >-
   I've been working on getting a Code Club started in my local area. There was a
