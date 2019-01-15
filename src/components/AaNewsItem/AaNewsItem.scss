@@ -76,7 +76,6 @@
 // variables
 $card-height: 500px;
 $h-color: #9cc9e3;
-$yellow: #d0bb57;
 $txt-color: #dce3e7;
 
 .blog-card {
@@ -144,11 +143,11 @@ $txt-color: #dce3e7;
   position: relative;
 }
 h3 {
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
   color: $h-color;
   margin-bottom: 0;
+  padding: 0 50px;
 }
 hr {
   width: 50px;
