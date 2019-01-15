@@ -83,11 +83,8 @@ $txt-color: #dce3e7;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
   text-align: center;
-
-  &.spring-fever {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/bg-blog-card.jpg)
-      no-repeat;
-  }
+  background-position: center;
+  background-size: cover;
 
   .color-overlay {
     /* Rectangle 11: */
@@ -127,7 +124,6 @@ $txt-color: #dce3e7;
   &:hover {
     .card-info {
       opacity: 1;
-      bottom: 120px;
     }
     .color-overlay {
       background: rgba(84, 104, 110, 0.8);
@@ -142,6 +138,7 @@ $txt-color: #dce3e7;
   width: 100%;
   top: 0;
   left: 0;
+  position: relative;
 }
 h3 {
   font-size: 20px;
@@ -168,8 +165,7 @@ hr {
 }
 .card-info {
   width: 100%;
-
-  bottom: 100px;
+  position: relative;
   left: 0;
   margin: 0 auto;
   padding: 50px;
@@ -179,7 +175,7 @@ hr {
   line-height: 24px;
   z-index: 20;
   opacity: 0;
-  transition: bottom 0.3s, opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
 }
 
 .utility-info {
