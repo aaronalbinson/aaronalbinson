@@ -14,7 +14,7 @@ class AaNewsItem extends React.Component {
 
   render() {
     var blogStyles = {
-      backgroundImage: `url(${this.props.blogImage})`
+      backgroundImage: `url(${this.props.image})`
     };
     return (
       <div className="AaNewsItem">
@@ -40,9 +40,7 @@ class AaNewsItem extends React.Component {
           <div class="title-content">
             <h3>{this.props.title}</h3>
             <hr />
-            <div class="intro">
-              Yllamco laboris nisi ut aliquip ex ea commodo.
-            </div>
+            <div class="intro">...</div>
           </div>
           <div class="card-info">{this.props.excerpt}</div>
           <div class="utility-info">
