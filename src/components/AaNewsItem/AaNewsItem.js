@@ -14,7 +14,7 @@ class AaNewsItem extends React.Component {
 
   render() {
     var blogStyles = {
-      backgroundImage: `url(${blogImage})`
+      backgroundImage: `url(${this.props.blogImage})`
     };
     return (
       <div className="AaNewsItem">
