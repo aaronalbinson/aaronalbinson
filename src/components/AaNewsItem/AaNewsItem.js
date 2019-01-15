@@ -42,11 +42,16 @@ class AaNewsItem extends React.Component {
             <hr />
             <div class="intro">...</div>
           </div>
-          <div class="card-info">{this.props.excerpt}</div>
+          <div class="card-info">
+            <div>{this.props.excerpt}</div>
+          </div>
           <div class="utility-info">
             <ul class="utility-list">
-              <li class="comments">12</li>
+              {/* <li class="comments">12</li> */}
               <li class="date">{this.props.date}</li>
+              <li className="permalink">
+                <a href={this.props.slug}>Read</a>
+              </li>
             </ul>
           </div>
 

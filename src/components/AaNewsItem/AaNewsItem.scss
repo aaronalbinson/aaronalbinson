@@ -77,7 +77,6 @@ $txt-color: #dce3e7;
 
 .blog-card {
   position: relative;
-  height: $card-height;
   min-width: 300px;
   overflow: hidden;
   border-radius: 10px;
@@ -89,7 +88,8 @@ $txt-color: #dce3e7;
   .color-overlay {
     /* Rectangle 11: */
     background: rgba(84, 104, 110, 0.4);
-    height: $card-height;
+    height: 100%;
+    width: 100%;
     position: absolute;
     z-index: 10;
     top: 0;
@@ -168,7 +168,7 @@ hr {
   position: relative;
   left: 0;
   margin: 0 auto;
-  padding: 50px;
+  padding: 50px 50px 100px 50px;
   color: $txt-color;
   font-family: "Droid Serif", serif;
   font-style: 16px;
@@ -179,19 +179,18 @@ hr {
 }
 
 .utility-info {
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  z-index: 20;
+  z-index: 25;
+  position: relative;
 }
 .utility-list {
   list-style-type: none;
-  margin: 0 0 30px 20px;
-  padding: 0;
   width: 100%;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
 
   li {
-    margin: 0 15px 0 0;
+    margin: 0;
     padding: 0 0 0 22px;
     display: inline-block;
     color: $txt-color;
@@ -203,6 +202,12 @@ hr {
     &.date {
       background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg)
         no-repeat 0 0.1em;
+    }
+    &.permalink {
+      float: right;
+      a {
+        color: #ffffff;
+      }
     }
   }
 }
