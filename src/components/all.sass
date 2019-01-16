@@ -1,18 +1,22 @@
-@import "~bulma/sass/utilities/initial-variables"
+// @import "~bulma/sass/utilities/initial-variables"
 @import "../styles/_variables.scss"
 
 // Config vars
 
-@import "~bulma"
+//@import "~bulma"
 
 $primary: #0d333c;
 $primary-invert: #fdcd3a;
 $secondary: #a27a2e;
 $gray: #2d3337;
 
+* 
+  box-sizing: border-box;
+
 body
   font-family: Muli
   background-color: $black;
+  margin: 0;
 
 a
   color: $secondary-color
@@ -68,6 +72,11 @@ a.has-text-primary:hover, a.has-text-primary:focus
 
 /* Blog */
 
+.container
+  width: 80vw
+  margin-left: auto
+  margin-right: auto
+
 .blog p
   font-family: 'EB Garamond', serif
   color: #FFFFFF
@@ -75,6 +84,7 @@ a.has-text-primary:hover, a.has-text-primary:focus
 
 .content h1
   color: #FFFFFF
+  font-size: 50px
 
 .blog h1
   color: #FFFFFF
