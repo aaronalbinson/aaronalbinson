@@ -6,7 +6,8 @@ elements:
       - herodescription: ''
         heroimage: /img/pexels-photo-57007.jpeg
         herotitle: Victoria Avenue Code Club
-    text:
+    text: []
+  - text:
       - paragraph: >-
           I run a code club at Victoria Avenue Library in Blackley, Manchester.
 
