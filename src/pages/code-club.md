@@ -14,7 +14,7 @@ elements:
 
           Children from ages 9-13 are are welcome every other Saturday to learn
           about coding using the code club projects. We have a lot of fun
-          exploring different way of building games, programs and websites and
+          exploring different ways of building games, programs and websites and
           even some programming of MicroBit and Raspberry Pi's.
 
 
