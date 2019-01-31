@@ -15,12 +15,12 @@ export default class Infos extends React.Component {
     return (
       <Layout>
         <div>
-          <section className="section portfolio">
+          <section className="section news">
             <div className="container">
               <div className="content">
-                <h1 className="has-text-weight-bold is-size-2">Portfolio</h1>
+                <h1 className="has-text-weight-bold is-size-2">Blog</h1>
               </div>
-              <div className="PortfolioItems">
+              <div className="NewsItems">
                 {posts.map(({ node: post }) => (
                   <AaNewsItem
                     id={post.id}
@@ -49,10 +49,10 @@ Infos.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query PortfolioQuery {
+  query PortQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { templateKey: { eq: "portfolio" } } }
+      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
     ) {
       edges {
         node {
