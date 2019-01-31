@@ -49,7 +49,7 @@ Infos.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query InfosQuery {
+  query PortfolioQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "portfolio" } } }
