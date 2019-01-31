@@ -12,6 +12,20 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "portfolio"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: Image, name: blogImage, widget: "image"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
+  - name: "portfolio"
+    label: "Portfolio"
+    folder: "src/pages/portfolio"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: Image, name: blogImage, widget: "image"}
