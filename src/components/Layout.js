@@ -43,6 +43,7 @@ const TemplateWrapper = ({ children }) => (
               <div className="top">
                 <Link to="/">
                   <svg
+                    width="120"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 173.4 67.74"
                   >
