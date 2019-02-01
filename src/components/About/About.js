@@ -22,7 +22,8 @@ class AaNewsItem extends React.Component {
               I'm an advocate of open source projects. I think that an open web
               creates a much happier and successful community online. I build
               bespoke websites in both Wordpress and Drupal and many other
-              platforms.
+              platforms. More recently I've been working closely with GatsbyJS
+              with NetlifyCMS to create super fast websites (like this one).
             </p>
             <p>
               As well as building websites I'm also skilled in building for all
