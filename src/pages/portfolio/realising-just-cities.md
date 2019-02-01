@@ -1,7 +1,7 @@
 ---
 templateKey: portfolio
 title: Realising Just Cities
-blogImage: /img/screen-shot-2019-02-01-at-00.19.18.png
+blogImage: /img/nature-image_0.jpg
 date: 2019-02-01T00:19:48.522Z
 description: >-
   Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis
