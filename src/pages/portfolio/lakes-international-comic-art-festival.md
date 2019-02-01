@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: portfolio
 title: Lakes International Comic Art Festival
 blogImage: /img/screen-shot-2019-02-01-at-00.55.51.png
 date: 2019-02-01T00:56:08.615Z
