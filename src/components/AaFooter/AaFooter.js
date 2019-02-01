@@ -1,5 +1,11 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaGithub,
+  FaLinkedin
+} from "react-icons/fa";
 import ReactHtmlParser, {
   processNodes,
   convertNodeToElement,
@@ -46,6 +52,24 @@ class AaFooter extends React.Component {
               <li>
                 <a href={this.props.socialLinks.instagram}>
                   <FaInstagram size="2em" />
+                </a>
+              </li>
+            ) : (
+              ""
+            )}
+            {this.props.socialLinks.linkedin ? (
+              <li>
+                <a href={this.props.socialLinks.linkedin}>
+                  <FaLinkedin size="2em" />
+                </a>
+              </li>
+            ) : (
+              ""
+            )}
+            {this.props.socialLinks.github ? (
+              <li>
+                <a href={this.props.socialLinks.github}>
+                  <FaGithub size="2em" />
                 </a>
               </li>
             ) : (
