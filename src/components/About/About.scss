@@ -19,6 +19,7 @@
   text-align: center;
   background-position: center;
   background-size: cover;
+  width: 100%;
 
   .color-overlay {
     /* Rectangle 11: */
@@ -69,6 +70,9 @@
   margin-bottom: 15px;
   font-size: 26px;
   font-family: "Vollkorn", serif;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aboutItem .aboutItemTitle {

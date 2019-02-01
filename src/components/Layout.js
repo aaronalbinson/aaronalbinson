@@ -40,7 +40,7 @@ const TemplateWrapper = ({ children }) => (
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div>
             <Helmet title={node.frontmatter.title} />
-            <Navbar />
+            <Navbar socialLinks={node.frontmatter.sociallinks} />
             <div id="page-wrap">
               <div className="top">
                 <Link to="/">
