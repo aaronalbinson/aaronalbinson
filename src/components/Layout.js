@@ -26,6 +26,8 @@ const TemplateWrapper = ({ children }) => (
                 sociallinks {
                   facebook
                   twitter
+                  linkedin
+                  github
                 }
               }
             }
