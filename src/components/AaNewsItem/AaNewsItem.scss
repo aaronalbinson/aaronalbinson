@@ -88,6 +88,13 @@ $txt-color: #dce3e7;
   background-size: cover;
   height: 100%;
 
+  .blog-card-container {
+    height: 100%;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+
   .color-overlay {
     /* Rectangle 11: */
     background: rgba(84, 104, 110, 0.4);
@@ -136,7 +143,6 @@ $txt-color: #dce3e7;
 
 .title-content {
   text-align: center;
-  margin: 70px 0 0 0;
   z-index: 20;
   width: 100%;
   top: 0;
