@@ -29,7 +29,7 @@ export default class Infos extends React.Component {
                     image={post.frontmatter.blogImage}
                     date={post.frontmatter.date}
                     excerpt={post.excerpt}
-                    moreText="Read"
+                    moreText="Read →"
                   />
                 ))}
               </div>

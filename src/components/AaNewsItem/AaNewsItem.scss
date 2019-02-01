@@ -149,6 +149,7 @@ $txt-color: #dce3e7;
   top: 0;
   left: 0;
   position: relative;
+  padding: 0 20px;pere
 }
 h3 {
   font-size: 30px;
@@ -217,9 +218,15 @@ hr {
     }
     &.permalink {
       float: right;
-      a {
-        color: #ffffff;
-      }
+      color: #fff;
+      border-radius: 30px;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 5px 15px;
+      background-color: #3e4f5a;
+      background-image: none;
+      border-width: 0;
     }
   }
 }
