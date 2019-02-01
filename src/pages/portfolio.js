@@ -24,7 +24,7 @@ export default class Infos extends React.Component {
                 {posts.map(({ node: post }) => (
                   <AaNewsItem
                     id={post.id}
-                    slug={post.fields.slug}
+                    slug={post.frontmatter.link}
                     title={post.frontmatter.title}
                     image={post.frontmatter.blogImage}
                     date={post.frontmatter.date}
@@ -64,6 +64,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             blogImage
+            link
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }
