@@ -110,4 +110,6 @@ collections:
           - {label: "Facebook URL", name: "facebook", widget: "string", required: false}
           - {label: "Twitter URL", name: "twitter", widget: "string", required: false}
           - {label: "Instagram URL", name: "instagram", widget: "string", required: false}
+          - {label: "LinkedIn URL", name: "linkedin", widget: "string", required: false}
+          - {label: "GitHub URL", name: "github", widget: "string", required: false}
           
