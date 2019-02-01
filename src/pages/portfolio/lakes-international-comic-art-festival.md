@@ -10,5 +10,6 @@ description: >-
   during the festival. 
 tags:
   - Drupal
+link: 'https://www.comicartfestival.com/'
 ---
 Each October thosands of people flock to the Lakes for their International Comic Art Festival, a weekend of celebration of the arts. The website brings together all the details for the festival, a round up of news and things to do during the festival.
