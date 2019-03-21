@@ -27,7 +27,7 @@ export default class Infos extends React.Component {
                     slug={post.frontmatter.link}
                     title={post.frontmatter.title}
                     image={post.frontmatter.blogImage}
-                    date={post.frontmatter.date}
+                    // date={post.frontmatter.date}
                     excerpt={post.excerpt}
                     moreText="Visit Website →"
                   />
