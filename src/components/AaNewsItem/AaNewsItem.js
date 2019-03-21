@@ -50,7 +50,11 @@ class AaNewsItem extends React.Component {
               <div class="utility-info">
                 <ul class="utility-list">
                   {/* <li class="comments">12</li> */}
-                  {this.props.date && <li class="date">{this.props.date}</li>}
+                  <li>
+                    {this.props.date && (
+                      <span class="date">{this.props.date}</span>
+                    )}
+                  </li>
                   <li className="permalink">{this.props.moreText}</li>
                 </ul>
               </div>
