@@ -204,16 +204,15 @@ hr {
 
   li {
     margin: 0;
-    padding: 0 0 0 22px;
     display: inline-block;
     color: $txt-color;
-
-    &.comments {
-      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg)
+    .date {
+      padding: 0 0 0 22px;
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg)
         no-repeat 0 0.1em;
     }
-    &.date {
-      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg)
+    &.comments {
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg)
         no-repeat 0 0.1em;
     }
     &.permalink {
