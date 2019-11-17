@@ -25,7 +25,9 @@ elements:
           ## Dates:
 
 
-          2nd February 2019 10am - 12pm
+          23rd November 2019 10am - 12pm\
+
+          7th December 2019 10am - 12pm
   - customhtml:
       - customhtml: >-
           <iframe
