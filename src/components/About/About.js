@@ -31,7 +31,7 @@ class About extends React.Component {
       fontSize: "82px"
     };
     return (
-      <Parallax ref={ref => (this.parallax = ref)} pages={4}>
+      <Parallax scrolling={false} ref={ref => (this.parallax = ref)} pages={4}>
 
         {/* PAGES */}
         <ParallaxLayer factor={1} offset={0} speed={1} style={{ backgroundColor: '#2C5765' }} />
