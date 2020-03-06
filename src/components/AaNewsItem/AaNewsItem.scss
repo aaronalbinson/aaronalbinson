@@ -3,6 +3,7 @@
 .AaNewsItem {
   flex: 1 1 43%;
   margin: 30px;
+
   @media only screen and (max-width: 600px) {
     margin: 30px 0;
     flex: 1 1 100%;
@@ -12,7 +13,7 @@
 .AaNewsItem h3 {
   display: inline;
   color: #ffffff;
-  font-family: Muli;
+  font-family: Lora;
 
   @media only screen and (max-width: 600px) {
     display: block;
@@ -39,7 +40,7 @@
 }
 
 .AaNewsItemHeader small {
-  font-family: Muli;
+  font-family: Lora;
   color: $bage;
 }
 
@@ -51,7 +52,7 @@
 }
 
 .AaNewsItem .content p {
-  font-family: "Vollkorn", serif;
+  font-family: "Lora", serif;
   font-size: 26px;
 }
 
@@ -65,6 +66,7 @@
   background-color: $primary-color-light;
   background-image: none;
   border-width: 0;
+
   &:hover {
     color: #ffffff;
     background-color: $primary-color-light;
@@ -81,12 +83,16 @@ $txt-color: #dce3e7;
 .blog-card {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 2000px;
+  // box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
   text-align: center;
   background-position: center;
   background-size: cover;
   height: 100%;
+  height: 80vw;
+  width: 80vw;
+  max-width: 350px;
+  max-height: 350px;
 
   .blog-card-container {
     height: 100%;
@@ -107,24 +113,17 @@ $txt-color: #dce3e7;
     left: 0;
     transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
   }
+
   .gradient-overlay {
     /* bg-gradient: */
-    background-image: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: -moz-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: -o-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 21%);
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 21%);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 21%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 21%);
     height: $card-height;
     position: absolute;
     top: 350px;
@@ -136,6 +135,7 @@ $txt-color: #dce3e7;
     .card-info {
       opacity: 1;
     }
+
     .color-overlay {
       background: rgba(84, 104, 110, 0.8);
     }
@@ -151,12 +151,14 @@ $txt-color: #dce3e7;
   position: relative;
   padding: 0 20px;
 }
+
 h3 {
   font-size: 30px;
   font-weight: bold;
   color: $h-color;
   margin-bottom: 0;
 }
+
 hr {
   width: 50px;
   height: 3px;
@@ -164,15 +166,17 @@ hr {
   border: 0;
   background: $secondary-color;
 }
+
 .intro {
   width: 170px;
   margin: 0 auto;
   color: $txt-color;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Lora', serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
 }
+
 .card-info {
   width: 100%;
   position: relative;
@@ -180,12 +184,13 @@ hr {
   margin: 0 auto;
   padding: 50px 50px 100px 50px;
   color: $txt-color;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Lora', serif;
   font-size: 22px;
   line-height: 24px;
   z-index: 20;
   opacity: 0;
   transition: opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+
   @media only screen and (max-width: 600px) {
     display: none;
   }
@@ -195,6 +200,7 @@ hr {
   z-index: 25;
   position: relative;
 }
+
 .utility-list {
   list-style-type: none;
   width: 100%;
@@ -206,15 +212,16 @@ hr {
     margin: 0;
     display: inline-block;
     color: $txt-color;
+
     .date {
       padding: 0 0 0 22px;
-      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg)
-        no-repeat 0 0.1em;
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg) no-repeat 0 0.1em;
     }
+
     &.comments {
-      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg)
-        no-repeat 0 0.1em;
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg) no-repeat 0 0.1em;
     }
+
     &.permalink {
       float: right;
       color: #fff;

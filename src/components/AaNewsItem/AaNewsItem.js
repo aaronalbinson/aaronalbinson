@@ -36,23 +36,23 @@ class AaNewsItem extends React.Component {
             </a>
           </p>
         </div> */}
-        <div class="blog-card spring-fever" style={blogStyles}>
+        <div className="blog-card spring-fever" style={blogStyles}>
           <a href={this.props.slug}>
-            <div class="blog-card-container">
-              <div class="title-content">
+            <div className="blog-card-container">
+              <div className="title-content">
                 <h3>{this.props.title}</h3>
                 <hr />
-                <div class="intro">...</div>
+                {/* <div className="intro">...</div> */}
               </div>
-              <div class="card-info">
+              <div className="card-info">
                 <div>{this.props.excerpt}</div>
               </div>
-              <div class="utility-info">
-                <ul class="utility-list">
-                  {/* <li class="comments">12</li> */}
+              <div className="utility-info">
+                <ul className="utility-list">
+                  {/* <li className="comments">12</li> */}
                   <li>
                     {this.props.date && (
-                      <span class="date">{this.props.date}</span>
+                      <span className="date">{this.props.date}</span>
                     )}
                   </li>
                   <li className="permalink">{this.props.moreText}</li>
@@ -60,8 +60,8 @@ class AaNewsItem extends React.Component {
               </div>
             </div>
 
-            <div class="gradient-overlay" />
-            <div class="color-overlay" />
+            <div className="gradient-overlay" />
+            <div className="color-overlay" />
           </a>
         </div>
       </div>

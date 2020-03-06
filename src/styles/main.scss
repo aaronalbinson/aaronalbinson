@@ -1,1 +1,32 @@
 @import "_variables";
+
+body {
+    cursor: url("../img/cursor.svg"), auto;
+    font-family: "Lora", serif;
+    a {
+        cursor: url("../img/cursorhover.svg"), auto;
+        transition: cursor 2s;
+
+    }
+    
+}
+
+.logo {
+    position: fixed;
+    top: 60px;
+    left: 100px;
+    z-index: 10000;
+}
+
+.left-menu {
+    z-index: 9999;
+    position:fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
