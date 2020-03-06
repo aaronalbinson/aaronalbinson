@@ -4,6 +4,85 @@
   display: flex;
 }
 
+
+
+.aboutTitleSection {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .sectionTitle {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 100px;
+    max-width: 1500px;
+    padding-right: 100px;
+  }
+}
+
+.aboutSection {
+  padding-left: 40px;
+  height: 70vh;
+  // max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .sectionTitle {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 100px;
+
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.circle {
+  flex-shrink: 1;
+  flex-basis: 50%;
+  align-items: center;
+  display: flex;
+
+  svg {
+    width: 100%;
+  }
+}
+
+.text {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  max-width: 550px;
+
+  h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+
+  p {
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #949494;
+  }
+}
+
 .aboutItem {
   color: #ffffff;
   padding: 30px;
@@ -32,24 +111,17 @@
     left: 0;
     transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
   }
+
   .gradient-overlay {
     /* bg-gradient: */
-    background-image: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: -moz-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: -o-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 21%);
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 21%);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 21%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 21%);
     position: absolute;
     top: 350px;
     left: 0;
@@ -60,6 +132,7 @@
     .card-info {
       opacity: 1;
     }
+
     .color-overlay {
       background: rgba(84, 104, 110, 0.8);
     }
@@ -69,7 +142,7 @@
 .aboutItem p {
   margin-bottom: 15px;
   font-size: 26px;
-  font-family: "Vollkorn", serif;
+  font-family: "Lora", serif;
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
@@ -108,10 +181,26 @@
   background-image: none;
   border-width: 0;
   margin-top: 40px;
+
   &:hover {
     background-color: $primary-color-light;
     background-image: none;
     color: #ffffff;
     cursor: pointer;
+  }
+}
+
+.portfolioItem {
+  flex-basis: 33.3333%;
+  max-width: 33.3333%;
+}
+
+
+@media only screen and (min-width: 700px) {
+
+  .aboutTitleSection {
+    .sectionTitle {
+      font-size: 60px;
+    }
   }
 }

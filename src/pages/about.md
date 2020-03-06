@@ -1,19 +1,15 @@
 ---
 templateKey: basic-page
-title: About Aaron
+title: About
 elements:
   - hero:
-      - herodescription: ''
-        heroimage: /img/abstract-background-blur-949587.jpg
-        herotitle: About Aaron
-  - aboutBlock: true
-  - aboutBlock: false
-    hero:
-      - herodescription: >-
-          Have a read of some of the things that interest me and excite me about
-          Web Development
+      - herodescription: Front End Web Developer in Manchester
+        heroimage: /img/dwo6mzdxcaey3v33.jpg
+        herolink: /about
+        herotitle: Aaron Albinson
+  - hero:
+      - herodescription: Find out what I've been up to
         heroimage: /img/group-1-.jpg
         herolink: /news
-        herotitle: Read my blog
+        herotitle: Blog
 ---
-
