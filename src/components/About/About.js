@@ -5,9 +5,6 @@ import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons.cjs';
 import VisibilitySensor from "react-visibility-sensor";
 import AaNewsItem from "../AaNewsItem/AaNewsItem";
 
-import Scrollbar from 'smooth-scrollbar-react';
-
-
 require("./About.scss");
 
 // Little helpers ...
