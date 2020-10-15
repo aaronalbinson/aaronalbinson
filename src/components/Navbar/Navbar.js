@@ -13,33 +13,12 @@ class Navbar extends React.Component {
       menuOpen: false
     };
   }
-  showSettings(event) {
-    event.preventDefault();
-  }
-
-  handleStateChange(state) {
-    this.setState({ menuOpen: state.isOpen });
-  }
-
-  closeMenu() {
-    this.setState({ menuOpen: false });
-  }
-
-  toggleMenu() {
-    this.setState({ menuOpen: !this.state.menuOpen });
-  }
 
   render() {
     return (
-      <nav className="is-transparent">
-        <Menu
-          pageWrapId={"page-wrap"}
-          outerContainerId={"outer-container"}
-          isOpen={this.state.menuOpen}
-          left
-        >
-          <StaticQuery
-            query={graphql`
+      <nav className="is-transparent main-nav">
+        <StaticQuery
+          query={graphql`
               query {
                 allMarkdownRemark(
                   filter: { frontmatter: { templateKey: { eq: "menu" } } }
@@ -57,22 +36,19 @@ class Navbar extends React.Component {
                 }
               }
             `}
-            render={data => (
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
+          render={data => (
+            <ul>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <li key={node.id}>
+                  <Link className="navbarItem" to={node.frontmatter.menupath}>
+                    {node.frontmatter.title}
+                  </Link>
                 </li>
-                {data.allMarkdownRemark.edges.map(({ node }) => (
-                  <li key={node.id}>
-                    <Link className="navbarItem" to={node.frontmatter.menupath}>
-                      {node.frontmatter.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          />
-        </Menu>
+              ))}
+            </ul>
+          )}
+        />
+
       </nav>
     );
   }

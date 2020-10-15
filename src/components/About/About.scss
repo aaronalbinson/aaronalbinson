@@ -1,117 +1,132 @@
 @import "../../styles/_variables";
 
-.about {
-  display: flex;
-}
+.about-section {
+  padding-top: 100px;
 
-.aboutItem {
-  color: #ffffff;
-  padding: 30px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-.aboutItem {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-
-  .color-overlay {
-    /* Rectangle 11: */
-    background: rgba(84, 104, 110, 0.4);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
-  }
-  .gradient-overlay {
-    /* bg-gradient: */
-    background-image: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: -moz-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: -o-linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 21%
-    );
-    position: absolute;
-    top: 350px;
-    left: 0;
-    z-index: 15;
+  h2 {
+    font-weight: normal;
   }
 
-  &:hover {
-    .card-info {
-      opacity: 1;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-top {
+    padding: 20px;
+  }
+
+  .intro {
+    font-family: Lora;
+    font-size: 24px;
+    max-width: 500px;
+    color: #eee;
+  }
+
+  .about-bottom {
+    padding: 20px;
+
+    h2 {
+      color: #D2B15C;
+      text-transform: uppercase;
+      font-size: 24px;
     }
-    .color-overlay {
-      background: rgba(84, 104, 110, 0.8);
+
+    .articles {
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      .AaNewsListItem {
+        a {
+          font-family: Lora;
+          font-size: 24px;
+          display: block;
+          width: 100%;
+          padding: 20px 20px 20px 0;
+          color: #eeeeee;
+          transition: color .5s, padding-left, .5s, background-color .5s;
+          margin-bottom: 0;
+
+          &:hover {
+            color: #849AEC;
+            padding-left: 10px;
+            background-color: #414A68;
+          }
+        }
+      }
+
+      button {
+        margin-top: 15px;
+      }
+
     }
-  }
-}
 
-.aboutItem p {
-  margin-bottom: 15px;
-  font-size: 26px;
-  font-family: "Vollkorn", serif;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    .contact-form {
+      color: #eee;
 
-.aboutItem .aboutItemTitle {
-  font-weight: bold;
-  color: #ffffff;
-  font-size: 30px;
-  margin-bottom: 25px;
-}
+      p {
+        font-family: Lora;
+        font-size: 24px;
+        color: #eeeeee;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0;
+        max-width: 500px;
+      }
 
-.aboutItem.knowledge {
-  background-color: $gray;
-  padding: 30px;
-}
+      .field {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
 
-.aboutItem.work {
-  background-color: $green;
-  padding: 30px;
-}
+        span {
+          width: 300px;
+          font-family: Lora;
 
-.aboutItem.inspire {
-  background-color: $brown;
-  padding: 30px;
-}
+        }
+      }
 
-.aboutItem .btn {
-  color: #ffffff;
-  border-radius: 30px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 5px 15px;
-  background-color: $primary-color-light;
-  background-image: none;
-  border-width: 0;
-  margin-top: 40px;
-  &:hover {
-    background-color: $primary-color-light;
-    background-image: none;
-    color: #ffffff;
-    cursor: pointer;
+      .radio {
+        display: block;
+        height: 29px;
+      }
+
+      .control {
+        min-width: 30px;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      input,
+      textarea {
+        font-family: Lora;
+        color: #eeeeee;
+        font-size: 20px;
+        background-color: #414A68;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        padding: 16px 15px;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      input[type='checkbox'] {
+        width: 30px;
+        height: 30px;
+        background: #eee;
+        border-radius: 5px;
+        border: 2px solid #414A68;
+        margin-bottom: 0;
+      }
+
+      input[type='checkbox']:checked {
+        background: #414A68;
+      }
+
+      .radio {
+        color: #eee;
+      }
+    }
   }
 }

@@ -8,7 +8,7 @@
 .jumbotron-container {
     background-color:rgba(0, 0, 0, 0.5);
     height: 100%;
-    color: #FFFFFF;
+    color: #eeeeee;
     align-items: center;
     display:flex;
 }
@@ -32,7 +32,7 @@
 }
 
 .aaJumbotron .btn {
-    color: #FFFFFF;
+    color: #eeeeee;
     border-radius: 30px;
     font-size: 20px;
     text-transform: uppercase;
@@ -42,8 +42,7 @@
     background-image: none;
     border-width:0;
     &:hover {
-        color: #FFFFFF;
-        background-color: $primary;
+        color: #eeeeee;
         background-image: none;
         cursor: pointer;
     }

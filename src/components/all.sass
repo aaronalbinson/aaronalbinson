@@ -1,22 +1,17 @@
-// @import "~bulma/sass/utilities/initial-variables"
 @import "../styles/_variables.scss"
 
-// Config vars
-
-//@import "~bulma"
-
-$primary: #0d333c;
-$primary-invert: #fdcd3a;
-$secondary: #a27a2e;
-$gray: #2d3337;
-
-* 
-  box-sizing: border-box;
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
 
 body
-  font-family: Muli
-  background-color: $black;
-  margin: 0;
+  font-family: Merriweather Sans
+  background-color: $primary-color-light
+  margin: 0
+  -webkit-font-smoothing: antialiased
+  -moz-font-smoothing: antialiased
+  -o-font-smoothing: antialiased
 
 a
   color: $secondary-color
@@ -28,27 +23,36 @@ a.has-text-primary:hover, a.has-text-primary:focus
   color: $secondary-color !important
 
 .content h2
-  color: #FFFFFF
+  color: #eeeeee
 
 .top
-  padding: 20px
-  border-bottom: 5px solid $secondary-color
-  background-color: $primary-color-light
+  position: fixed
+  width: 100vw
 
-// .content .taglist
-//   list-style: none
-//   margin-bottom: 0
-//   margin-left: 0
-//   margin-right: 1.5rem
-//   margin-top: 1.5rem
-//   display: flex
-//   flex-wrap: wrap
-//   justify-content: left
-//   align-items: center
-//   li
-//     padding: 0 2rem 1rem 0
-//     margin-bottom: 1.5rem
-//     margin-top: 0
+.top-inner
+  padding: 20px
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.main-nav
+  width: 100%
+  margin-left: 30px
+  ul
+    display: flex
+    a
+      padding: 10px 20px
+      font-size: 20px
+      text-transform: uppercase
+      color: #eeeeee
+      transition: color .5s
+      &:hover
+        color: #849AEC
+
+.right-menu
+  display: flex
+  .mode-toggle
+    margin-right: 20px
 
 // Helper Classes
 .full-width-image-container
@@ -70,24 +74,35 @@ a.has-text-primary:hover, a.has-text-primary:focus
 .logo
   max-width: 60%
 
-/* Blog */
-
 .container
-  width: 80vw
+  max-width: 1200px
   margin-left: auto
   margin-right: auto
 
+/* Blog */
+
 .blog p, .portfolio p
   font-family: 'Vollkorn', serif
-  color: #FFFFFF
+  color: #eeeeee
   font-size: 26px
 
 .content h1
-  color: #FFFFFF
+  color: #eeeeee
   font-size: 50px
 
+.blog-title
+  height: 70vh
+  display: flex
+  align-items: center
+  padding: 20px
+
+.blog-content
+  padding: 20px
+
 .blog h1, .portfolio h1
-  color: #FFFFFF
+  color: #eeeeee
+  padding: 0
+  margin: 0
 
 .blog h4, .portfolio h4
   color: $bage
@@ -106,4 +121,18 @@ ul
   list-style: none
   margin: 0
   padding: 0
-  
+
+button
+  background-color: #eeeeee
+  color: #414A68
+  text-transform: lowercase
+  min-width: 215px
+  height: 60px
+  font-size: 18px
+  border-radius: 5px
+  transition: background-color .5s, color .5s
+  cursor: pointer
+  border: none
+  &:hover
+    background-color: #5969a2
+    color: #eee

@@ -2,6 +2,15 @@
 templateKey: basic-page
 title: Style guide
 elements:
+  - aboutBlock: true
+  - aboutBlock: false
+    hero:
+      - herodescription: >-
+          Have a read of some of the things that interest me and excite me about
+          Web Development
+        heroimage: /img/group-1-.jpg
+        herolink: /news
+        herotitle: Read my blog
   - hero:
       - herodescription: >-
           This is a hero box, great for introducing a page or sending the user

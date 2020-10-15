@@ -6,31 +6,24 @@
   flex-wrap: wrap;
   flex-basis: 50%;
   justify-content: space-between;
-  border-top: 8px solid $secondary-color;
   padding: 20px;
   background-color: $primary-color-light;
-  color: #FFFFFF;
-}
+  color: #eeeeee;
 
-.footerAddress {
-  max-width: 50%;
-  p{
-    margin-bottom: 15px;
-  }
-}
-
-.footerSocial {
-  display: flex;
-  ul {
+  .container {
     display: flex;
-    li {
-      margin-left: 20px;
-      a {
-        color: $secondary-color;
-        &:hover {
-          color: $secondary-color;
-        }
-      }
-    }
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
   }
+
+  .articles {
+    width: 40%;
+  }
+
+  .contact-form {
+    width: 40%;
+  }
+
 }
