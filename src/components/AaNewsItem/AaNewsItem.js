@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Button from "react-bootstrap/lib/Button";
+import Button from 'react-bootstrap/Button'
 
 require("./AaNewsItem.scss");
 

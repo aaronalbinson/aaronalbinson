@@ -1,6 +1,6 @@
 import React from "react";
-import Jumbotron from "react-bootstrap/lib/Jumbotron";
-import Button from "react-bootstrap/lib/Button";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Button from 'react-bootstrap/Button'
 
 require("./AaJumbotron.scss");
 

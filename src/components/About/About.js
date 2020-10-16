@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, graphql, useStaticQuery, StaticQuery } from "gatsby"
 import NewsListItem from "../AaNewsListItem/AaNewsListItem";
-import Button from "react-bootstrap/lib/Button";
+import Button from 'react-bootstrap/Button'
 
 require("./About.scss");
 
