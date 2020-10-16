@@ -1,5 +1,11 @@
 @import "../../styles/_variables";
 
+.hiddensm {
+  @media only screen and (max-width: 700px) {
+    display: none;
+  }
+}
+
 .about-section {
   padding-top: 100px;
 
@@ -14,17 +20,47 @@
 
   .about-top {
     padding: 20px;
+
+    .intro {
+      font-family: Lora;
+      font-size: 24px;
+      max-width: 500px;
+      color: #eee;
+    }
+
+    .animation {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media only screen and (max-width: 700px) {
+      padding: 20px 0 20px 20px;
+      align-items: center;
+
+      .intro {
+        font-size: 20px;
+        margin-right: 20px;
+      }
+    }
   }
 
-  .intro {
-    font-family: Lora;
-    font-size: 24px;
-    max-width: 500px;
-    color: #eee;
-  }
+
 
   .about-bottom {
     padding: 20px;
+
+    @media only screen and (max-width: 700px) {
+      &.container {
+        flex-direction: column;
+
+        .articles {
+          margin-bottom: 60px;
+        }
+
+      }
+    }
 
     h2 {
       color: #D2B15C;
@@ -33,6 +69,12 @@
     }
 
     .articles {
+      padding-right: 20px;
+
+      @media only screen and (max-width: 700px) {
+        padding-right: 0;
+      }
+
       h2 {
         margin-bottom: 20px;
       }

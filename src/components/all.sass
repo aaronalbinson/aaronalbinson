@@ -6,7 +6,7 @@
   padding: 0
 
 body
-  font-family: Merriweather Sans
+  font-family: Roboto
   background-color: $primary-color-light
   margin: 0
   -webkit-font-smoothing: antialiased
@@ -38,6 +38,9 @@ a.has-text-primary:hover, a.has-text-primary:focus
 .main-nav
   width: 100%
   margin-left: 30px
+
+  @media only screen and (max-width: 700px)
+    margin-left: 10px
   ul
     display: flex
     a
@@ -46,6 +49,10 @@ a.has-text-primary:hover, a.has-text-primary:focus
       text-transform: uppercase
       color: #eeeeee
       transition: color .5s
+      @media only screen and (max-width: 700px)
+        font-size: 16px
+        padding: 10px
+
       &:hover
         color: #849AEC
 
@@ -53,6 +60,8 @@ a.has-text-primary:hover, a.has-text-primary:focus
   display: flex
   .mode-toggle
     margin-right: 20px
+  .environ-popup-toggle
+    cursor: pointer
 
 // Helper Classes
 .full-width-image-container
@@ -91,10 +100,14 @@ a.has-text-primary:hover, a.has-text-primary:focus
   font-size: 50px
 
 .blog-title
-  height: 70vh
+  height: 60vh
   display: flex
   align-items: center
   padding: 20px
+  h2
+    color: #eeeeee
+    font-weight: bold
+    font-size: 50px
 
 .blog-content
   padding: 20px
@@ -113,6 +126,35 @@ a.has-text-primary:hover, a.has-text-primary:focus
 .NewsItems
   display: flex
   flex-wrap: wrap
+
+/* News */
+.news
+  .articles
+    padding: 20px
+    .AaNewsItem
+      padding: 20px 40px 20px 0
+      transition: background-color .5s, color .5s, padding .5s
+      
+      h3
+        font-family: Lora
+        font-size: 24px
+        display: block
+        width: 100%
+        color: #eeeeee
+        margin-bottom: 0
+        margin-top: 0
+        padding-bottom: 20px
+        transition: color .5s
+      p
+        font-size: 20px
+        color: #eeeeee
+      &:hover
+        padding: 20px
+        background-color: #414A68
+        color: #849AEC
+        h3
+          color: #849AEC
+
 
 a
   text-decoration: none
@@ -136,3 +178,7 @@ button
   &:hover
     background-color: #5969a2
     color: #eee
+
+.noshow
+  .environ-popup
+    display: none

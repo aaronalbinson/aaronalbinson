@@ -1,0 +1,69 @@
+.environ-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    .environ {
+        width: 100vw;
+        height: 100vh;
+        background: rgba(47, 56, 89, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .popup-inner {
+            width: 80vw;
+            max-width: 900px;
+            background-color: #584E33;
+            color: #eee;
+            border-radius: 5px;
+            padding: 40px;
+            max-height: 75vh;
+            overflow-y: auto;
+
+            @media only screen and (max-width: 700px) {
+                padding: 20px;
+            }
+
+            .popup-top {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+
+                h2 {
+                    font-size: 48px;
+                    font-family: Lora;
+                    font-weight: 600;
+                    @media only screen and (max-width: 700px) {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            p {
+                font-size: 28px;
+                margin: 20px 0;
+                @media only screen and (max-width: 700px) {
+                    font-size: 20px;
+                }
+            }
+
+            .popup-bottom {
+                display: flex;
+                width: 100%;
+                button {
+                    margin-right: 20px;
+                }
+                @media only screen and (max-width: 700px) {
+                    flex-direction: column;
+                    button {
+                        margin-top: 20px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

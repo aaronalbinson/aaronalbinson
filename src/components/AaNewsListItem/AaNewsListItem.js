@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 require("./AaNewsListItem.scss");
 
@@ -13,9 +14,9 @@ class AaNewsListItem extends React.Component {
   render() {
     return (
       <div className="AaNewsListItem">
-        <a href={this.props.slug}>
+        <Link to={this.props.slug}>
           {this.props.title}
-        </a>
+        </Link>
       </div>
     );
   }
