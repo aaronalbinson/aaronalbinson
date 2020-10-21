@@ -17,7 +17,7 @@ Gatsby already has a sweet plugin for [page transitions](https://www.gatsbyjs.or
 
 In this example I’m going to use a basic template that GatsbyJS provides with the Kaldi theme. It provides us with a few pages including a blog and a couple of forms. It’s basically a fully responsive website that we can add some animations to.
 
-# Installation
+## Installation
 
 First we need to install pose to our site with
 
@@ -29,7 +29,7 @@ or
 
 We’ll need to import Pose for each component that we want to add animations to with `import posed from 'react-pose';`
 
-# Hover animations
+## Hover animations
 
 We can use `posed` to create any animated HTML or SVG element, here we’ll use it to create a div.
 
@@ -66,7 +66,7 @@ This will increase the scale of the box when hovered. It’s a pretty simple and
 
 It [turns out quite well](https://5bff40a9e4708539f3037ba9--gatsbyjs-pose.netlify.com/), and [the code](https://github.com/aaronalbinson/gatsby-starter-pose/blob/c5e702b6e855d2f35ebb077bf143ff4727bcffb5/src/pages/index.js#L11) is pretty easy to follow.
 
-# Image Zoom
+## Image Zoom
 
 One example on the Pose documentation shows how we can zoom into an image on click and zoom back out again when the image is clicked again. This seems like a nice light and simple alternative to a lightbox.
 
@@ -171,7 +171,7 @@ Now that our new component is ready to use, let’s import it into the products 
 
 That’s it, a really simple lightbox effect with Pose within our GatsbyJS static site. [Here’s the result](https://5c055b0d0ff8d46fc650df00--gatsbyjs-pose.netlify.com/products) and [the code](https://github.com/aaronalbinson/gatsby-starter-pose/blob/pose-image-zoom/src/components/ImageZoom.js).
 
-## Other inspiration and useful links
+### Other inspiration and useful links
 
 There’s a lot that you can do with Pose and after having a small play around with it I think it has it’s part to play in simple animations for websites. Here’s [a really nice example](https://twitter.com/vince_parulan/status/1058111363757813760) of Vince Parulan creating a lovely animated menu with Pose.
 
