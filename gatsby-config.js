@@ -4,6 +4,7 @@ module.exports = {
     description: "Front End Web Developer from Manchester"
   },
   plugins: [
+    "gatsby-plugin-dark-mode",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
