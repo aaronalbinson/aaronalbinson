@@ -89,9 +89,10 @@ class AaNewsItem extends React.Component {
               </div>
 
               <div className="field">
-                <span>receive my newsletter?</span>
+                {/* <span>receive my newsletter?</span> */}
                 <div className="control">
                   <label className="radio">
+                    <span className="checkboxLabel">recieve my newsletter</span>
                     <input type="checkbox" name="newsletter" />
                   </label>
                 </div>
