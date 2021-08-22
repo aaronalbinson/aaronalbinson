@@ -54,39 +54,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: "./src/img/favicon.svg",
-
-        // WebApp Manifest Configuration
-        appName: "Aaron Albinson", // Inferred with your package.json
-        appDescription: null,
-        developerName: null,
-        developerURL: null,
-        dir: "auto",
-        lang: "en-US",
-        background: "#232e3a",
-        theme_color: "#232e3a",
-        display: "standalone",
-        orientation: "any",
-        start_url: "/",
-        version: "1.0",
-
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          opengraph: false,
-          twitter: false,
-          yandex: false,
-          windows: false
-        }
-      }
-    },
-    {
       resolve: `gatsby-plugin-styled-components`
     }
   ]
