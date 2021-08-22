@@ -36,8 +36,8 @@ class Layout extends React.Component {
                       <label>
                         <input
                           type="checkbox"
-                          onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                          checked={theme === 'dark'}
+                          onChange={e => toggleTheme(e.target.checked ? 'light' : 'dark')}
+                          checked={theme === 'light'}
                         />
                         <svg className="mode-toggle light" width="35" height="35" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.458 32.083H16.14C8.097 31.351 2.247 24.17 2.978 16.108 3.563 9.072 9.121 3.503 16.141 2.917c.586 0 1.17.293 1.463.732.293.44.293 1.173-.146 1.613-1.463 1.905-1.902 4.25-1.61 6.595.293 2.345 1.61 4.397 3.511 5.716a8.543 8.543 0 0010.384 0c.439-.293 1.024-.44 1.61-.146.438.293.73.88.73 1.465-.292 3.958-2.193 7.475-5.265 9.967-2.779 2.052-5.996 3.224-9.36 3.224zM13.363 6.288c-4.242 1.465-7.167 5.276-7.606 9.966-.585 6.45 4.095 12.165 10.53 12.751 3.072.294 6.143-.586 8.484-2.638 1.608-1.319 2.778-3.078 3.51-4.983-3.657 1.32-7.752.733-10.97-1.612-2.486-1.906-4.095-4.544-4.68-7.622-.146-2.052.147-3.957.732-5.862z" fill="#F2F2F2" /></svg>
                         <svg className="mode-toggle dark" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
