@@ -14,6 +14,17 @@ module.exports = {
       resolve: `gatsby-plugin-sass`
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Aaron Albinson`,
+        short_name: `Aaron Albinson`,
+        start_url: `/`,
+        background_color: `#2f3859`,
+        theme_color: `#2f3859`,
+        display: `standalone`,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
