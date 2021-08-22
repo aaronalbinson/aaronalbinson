@@ -4,6 +4,7 @@ import AaFooter from "./AaFooter/AaFooter";
 import Navbar from "../components/Navbar/Navbar";
 import Environ from "../components/Environ/Environ";
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import { Helmet } from "react-helmet"
 import "./all.sass";
 
 class Layout extends React.Component {
@@ -22,6 +23,9 @@ class Layout extends React.Component {
       <ThemeToggler>
         {({ theme, toggleTheme }) => (
           <div id="outer-container">
+            <Helmet>
+              <title>Aaron Albinson</title>
+            </Helmet>
 
             <div id="page-wrap" className={this.state.showPopup ? "show" : "noshow"}>
               <div class="environ-popup" onClick={() => this.togglePopup()}><Environ /></div>
