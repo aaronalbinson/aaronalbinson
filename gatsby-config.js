@@ -4,9 +4,15 @@ module.exports = {
     description: "Front End Web Developer from Manchester"
   },
   plugins: [
-    "gatsby-plugin-dark-mode",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-dark-mode`
+    },
+    {
+      resolve: `gatsby-plugin-react-helmet`
+    },
+    {
+      resolve: `gatsby-plugin-sass`
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -21,8 +27,12 @@ module.exports = {
         name: "images"
       }
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    {
+      resolve: `gatsby-plugin-sharp`
+    },
+    {
+      resolve: `gatsby-transformer-sharp`
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -78,20 +88,6 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-styled-components`
-    },
-    // {
-    //   resolve: "gatsby-plugin-collections",
-    //   options: {
-    //     collections: [
-    //       {
-    //         name: "basicpage",
-    //         folder: "src/pages/basicpage",
-    //         permalink: "/:title",
-    //         template: "basicpage"
-    //       }
-    //     ]
-    //   }
-    // },
-    //"gatsby-plugin-netlify" // make sure to keep it last in the array
+    }
   ]
 };
